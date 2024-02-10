@@ -1,9 +1,9 @@
 import css from './FriendListItem.module.css';
 import clsx from 'clsx';
 
-export const FriendListItem = ({ avatar, name, isOnline }) => {
+const FriendListItem = ({ avatar, name, isOnline }) => {
   const classOnline = clsx(isOnline ? 'online' : 'offline');
-  
+
   return (
     <div className={css.friend}>
       <img src={avatar} alt="Avatar" width="48" className={css.avatar} />
@@ -12,3 +12,5 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
     </div>
   );
 };
+
+export default FriendListItem;

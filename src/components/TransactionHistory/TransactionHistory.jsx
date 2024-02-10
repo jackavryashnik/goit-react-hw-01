@@ -1,7 +1,7 @@
 import css from './TransactionHistory.module.css';
 import clsx from 'clsx';
 
-export const TransactionHistory = ({ item }) => {
+const TransactionHistory = ({ item }) => {
   return (
     <table className={css.table}>
       <thead className={css.head}>
@@ -24,3 +24,5 @@ export const TransactionHistory = ({ item }) => {
     </table>
   );
 };
+
+export default TransactionHistory;

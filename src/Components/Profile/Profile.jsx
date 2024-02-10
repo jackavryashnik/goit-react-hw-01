@@ -1,10 +1,10 @@
-import css from './Profile.module.css'
+import css from './Profile.module.css';
 
-export const Profile = ({ name, tag, location, image, stats }) => {
+const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className={css.profileCard}>
       <div className={css.userInfo}>
-        <img src={image} alt="User avatar" className={css.userAvatar}/>
+        <img src={image} alt="User avatar" className={css.userAvatar} />
         <p className={css.userName}>{name}</p>
         <p className={css.userTag}>@{tag}</p>
         <p className={css.userLocation}>{location}</p>
@@ -26,3 +26,5 @@ export const Profile = ({ name, tag, location, image, stats }) => {
     </div>
   );
 };
+
+export default Profile;
