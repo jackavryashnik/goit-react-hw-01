@@ -1,0 +1,25 @@
+.friend {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  min-width: 100px;
+}
+
+.avatar {
+    margin: 0 auto;
+}
+
+.name {
+  font-size: 150%;
+  margin-bottom: 8px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

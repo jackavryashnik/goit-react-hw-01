@@ -1,4 +1,3 @@
-import React from 'react';
 import css from './Profile.module.css'
 
 export const Profile = ({ name, tag, location, image, stats }) => {
