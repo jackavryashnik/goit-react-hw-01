@@ -1,0 +1,54 @@
+.profileCard {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background-color: rgb(204, 203, 203);
+  color: gray;
+}
+
+.userAvatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  overflow: hidden;
+  background-color: rgb(37, 36, 36);
+}
+
+.userName {
+  margin-bottom: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.userTag {
+  margin-bottom: 10px;
+}
+
+.userStats {
+  display: flex;
+}
+
+.statBox {
+  display: flex;
+  width: 100px;
+  flex-direction: column;
+  color: black;
+  background-color: rgb(164, 164, 164);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.statCounter {
+  font-weight: bold;
+}
